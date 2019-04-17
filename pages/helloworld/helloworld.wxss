@@ -1,0 +1,14 @@
+/* view{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+} */
+
+/* @import "./assels.wxss";
+.container{
+ color: red;
+} */
+
+/* view{
+  background-color: blue !important;
+} */

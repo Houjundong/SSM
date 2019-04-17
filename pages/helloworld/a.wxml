@@ -1,0 +1,4 @@
+<view>helloworld 123</view>
+<template name="a">
+  helloworld!
+</template>

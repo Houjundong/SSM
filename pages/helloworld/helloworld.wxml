@@ -1,0 +1,91 @@
+<!-- <view>
+{{messgae}}
+  <text data-name="{{theName}}"></text>
+
+  <view hidden="{{flag?true:false}}">
+      {{flag}}
+  </view>
+
+  <block wx:for="{{items}}" wx:for-item="item">
+      <view>{{index}}:{{item.name}}</view>
+  </block>
+
+
+</view> -->
+
+<!-- <view>今天我们吃什么</view>
+<view wx:if="{{condition===1}}">
+    {{condition}}
+</view>
+<view wx:elif="{{condition === 2}}">
+  {{condition}}
+</view>
+<view wx:else>
+  {{condition}}
+</view> -->
+
+<!-- 
+<template name="tempItem" >
+  <view>姓名:{{name}}</view>
+  <view>地址:{{address}}</view>
+  <view>号码:{{phone}}</view>
+</template>
+
+<template is="tempItem" data="{{...item}}"></template> -->
+
+
+<!-- <import src="a.wxml"></import>
+<template is="a"></template> -->
+
+<!-- <import src="b.wxml"></import>
+<template is="b"></template> -->
+
+
+
+<!-- <include src="a.wxml"></include>
+<template is="a"></template> -->
+
+
+<!-- <view class="container" style="width:500rpx; height:100px; background-color:{{colorValue}};">
+  hello world
+</view> -->
+
+
+<!-- <wxs module="m1">
+  module.exports={
+    message:'hello world hjd'
+  }
+</wxs>
+
+<view>{{m1.message}}</view> -->
+
+<!-- <wxs src="./m2.wxs" module="module2"></wxs>
+<view>{{module2.message}}</view> -->
+
+
+
+<!-- <wxs module="m3">
+  var v = 1;
+  module.exports.value = v;
+  //注释
+  /*多行注释
+  v += 1;*/
+
+  console.log(v);
+
+  
+
+  var d = 3;
+  module.exports.value = d;
+    console.log(d);
+</wxs>
+
+<view>{{m3.value}}</view> -->
+<!-- <view>{{m3.message}}</view> -->
+
+
+<view>
+  <view class="btn" bindtap="clickMe">
+    点击我
+  </view>
+</view>
