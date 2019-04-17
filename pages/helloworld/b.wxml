@@ -4,3 +4,4 @@
 
 <import src="c.wxml"></import> 
 <template is="c"></template>
+<view>another</view>
